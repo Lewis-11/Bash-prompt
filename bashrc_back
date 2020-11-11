@@ -216,10 +216,3 @@ load_prompt
 export LS_OPTIONS='--color=auto'
 eval "$(dircolors -b)"
 alias ls='ls $LS_OPTIONS'
-
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
-source ~/.local/bin/virtualenvwrapper.sh
-
-
-
